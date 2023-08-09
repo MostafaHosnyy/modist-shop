@@ -119,7 +119,7 @@ body {
 }
 #hero {
   position: relative;
-  background-image: url("/img/20.jpg");
+  background-image: url("../img/20.jpg");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -272,7 +272,7 @@ body {
   height: 652px;
   display: flex;
   justify-content: center;
-  background-image: url("/Img/cover-2.jpg");
+  background-image: url("../Img/cover-2.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -299,7 +299,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("/img/t-b8.jpg");
+  background-image: url("../img/t-b8.jpg");
   width: 100%;
   height: 60vh;
   background-size: cover;
@@ -334,7 +334,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  background-image: url("/img/b3.jpg");
+  background-image: url("../img/b3.jpg");
   min-width: 30%;
   height: 30vh;
   background-size: cover;
@@ -354,10 +354,10 @@ body {
 }
 
 #banner-3 .banner-box-2 {
-  background-image: url("/img/b2.jpg");
+  background-image: url("../img/b2.jpg");
 }
 #banner-3 .banner-box-3 {
-  background-image: url("/img/b1.jpg");
+  background-image: url("../img/b1.jpg");
 }
 
 #newsletter {
@@ -447,7 +447,7 @@ footer a:hover {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  background-image: url("/img/b16.jpg");
+  background-image: url("../img/b16.jpg");
   min-width: 580px;
   height: 50vh;
   background-size: cover;
@@ -455,7 +455,7 @@ footer a:hover {
   padding: 30px;
 }
 #sm-banner .banner-box-2 {
-  background-image: url("/img/b17.jpg");
+  background-image: url("../img/b17.jpg");
 }
 #sm-banner h2 {
   color: #fff;
@@ -544,7 +544,7 @@ footer a:hover {
 }
 /* cart page */
 #page-header {
-  background-image: url("/img/b4.png");
+  background-image: url("../img/b4.png");
   background-position: center;
 }
 
@@ -769,7 +769,7 @@ footer a:hover {
     height: 100%;
     display: flex;
     justify-content: center;
-    background-image: url("/Img/cover-2.jpg");
+    background-image: url("../Img/cover-2.jpg");
     background-size: contain;
     background-repeat: no-repeat;
   }
