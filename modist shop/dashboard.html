@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+</head>
+<body>
+    <header>
+     <div class="navDash">
+        <a href="index.html" id="exit"><i class="fa-solid fa-arrow-left"></i></a>
+        <a href="index.html">MODIST</a>
+     </div>
+    </header>
+      <section class="userDash">
+        <div class="userInfo">
+            <img class="userImg" src="img/avatar.jpg">
+            <h3 class="userName">Username</h3>
+        </div>
+           <div class="userControl"id="myBtnContainer">
+            <ul>
+                <li id="dashTitle">Dashboard</li>
+                <li class="btn" onclick="filterSelection('activeUsers')">Active Users</li>
+                <li class="btn" onclick="filterSelection('soldItems')">Sold Items</li>
+                <li class="btn" onclick="filterSelection('budget')">Budget & Total Revenue</li>
+                <!-- <li>+ Add New </li> -->
+                <!-- <button id="myBtn">Open Modal</button> -->
+            </ul>
+          </div>
+        </div>
+    </section>
+      <div class="dashContainer">  
+         <div class="dashUser activeUsers">
+           <div class="chip">
+             <img src="img/profile-1.jpg" alt="Person" width="96" height="96">
+                John Doe
+               </div>
+             </div>
+            <div class="dashUser soldItems">
+              <h2>Sold Items</h2>
+                  <p>works</p>
+                 </div>
+             <div class="dashUser budget">
+               <img src="img/productivity.png" alt="">
+                 <h2>Budget & Total Revenue</h2>
+                 <p>works</p>
+              </div>
+         </div>       
+   <script src="js/board.js"></script>        
+</body>
+</html>
