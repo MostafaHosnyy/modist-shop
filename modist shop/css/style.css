@@ -677,7 +677,120 @@ footer a:hover {
   color: white;
   padding: 13px 20px 10px 20px;
 }
-
+/* dashboard */
+.navDash{
+    font-size:24px;
+    line-height:80px;
+    padding-left:30px;
+    letter-spacing: 0.3rem;
+    background:#23292e;
+    color:#FAFFFF;
+    height:80px;
+    position:fixed;
+    top:0;
+    width:100%;
+  }
+  .navDash a{
+    color: #FFFAF0;
+    text-decoration: none;
+  }
+  .userDash{
+    background:#23292E;
+    height:100vh;
+    position:fixed;
+    top:80px;
+    left:0;
+    width:200px;
+    transition:.7s linear;
+    z-index: 99;
+  }
+  .userInfo{
+    padding:40px 2% 30px 2%;
+    text-align:center;
+  }
+  .userImg{
+    border-radius:100%
+  }
+  .userName{
+    color:white;
+    font-size: 1rem;
+    margin:10px auto;
+  }
+  .userControl li{
+    z-index: 999;
+    border-bottom:1px solid #211e1e;
+    color:white;
+    cursor: pointer;
+    font-size:14px;
+    font-weight: 500;
+    line-height:40px;
+    height:40px;  
+    padding:0 15px;
+    transition:.4s linear;
+  }
+  .userControl li:hover{
+    background:#211e1e;
+    color:#FFFAF0;
+    transition:.4s linear;
+  }
+  .userControl ul #dashTitle{
+    background:#D2691E;
+    border-top:1px solid #FFFAF0;
+    border-bottom:1px solid #FFFAF0;
+    color:#FAFFFF;
+    font-size:13px;
+    letter-spacing:1px;
+    line-height:30px;
+    height:40px;  
+    padding:4px;
+    text-align:center;
+  }
+  #exit{
+    background:#D2691E;
+    color:#FAFFFF;
+    font-size:17px;
+    padding:10px;
+  }
+  #exit:hover{
+    background:#FAFFFF;
+    color:#000;
+  }
+  
+  .dashContainer{
+    padding:70px ;
+    margin-top:20px ;
+    margin-left:200px;
+  }
+  
+  .dashContainer h2{
+    color:#D2691E;
+    font-size:18px;
+  }
+  .dashUser {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  .chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #e8e5e8;
+    color: #000;
+  }
+  
+  .chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
 
 
 
